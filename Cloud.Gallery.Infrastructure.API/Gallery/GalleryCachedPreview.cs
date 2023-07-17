@@ -1,7 +1,7 @@
-using Cloud.Gallery.Infrastructure.API.Image;
+using Cloud.Gallery.Infrastructure.API.CachedImage;
 
 namespace Cloud.Gallery.Infrastructure.API.Gallery;
 
-public record GalleryCachedPreviewView(
+public record GalleryCachedPreview(
     ICollection<CachedPreviewImage> Images
-    );
+);

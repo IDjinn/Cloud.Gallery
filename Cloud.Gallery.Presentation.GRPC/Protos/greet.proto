@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-option csharp_namespace = "Cloud.Galery.Core";
+option csharp_namespace = "Cloud.Gallery.Presentation.GRPC";
 
 package greet;
 
 // The greeting service definition.
 service Greeter {
   // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc Oi (HelloRequest) returns (HelloReply);
 }
 
 // The request message containing the user's name.

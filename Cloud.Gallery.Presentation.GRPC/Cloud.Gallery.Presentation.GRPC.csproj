@@ -6,19 +6,34 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
-
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+        <PackageReference Include="Google.Protobuf" Version="3.15.5"/>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.35.0"/>
+        <PackageReference Include="Grpc.Net.Client" Version="2.35.0"/>
+        <PackageReference Include="Grpc.Tools" Version="2.36.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="MediatR" Version="12.1.1"/>
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Protos\*"/>
+        <Protobuf Include="Protos\*" GrpcServices="Server"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc.AspNetCore" Version="2.49.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.49.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Cloud.Gallery.Infrastructure\Cloud.Gallery.Infrastructure.csproj"/>
     </ItemGroup>
 
 </Project>

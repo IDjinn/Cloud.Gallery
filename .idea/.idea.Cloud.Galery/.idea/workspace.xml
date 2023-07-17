@@ -11,6 +11,7 @@
     <list default="true" id="b46e6850-4dff-4734-b236-268f67316907" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cloud.Galery/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Cloud.Gallery/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Cloud.Gallery/.idea/indexLayout.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Cloud.Gallery/.idea/vcs.xml" afterDir="false" />
@@ -36,6 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5ba1087303a44be88ae40da9a233bb541e00/03/0c5700a2/02000007pdb2Low.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cloud.Gallery.Contracts/GalleryCache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cloud.Gallery.Presentation.GRPC/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cloud.Gallery.Presentation.GRPC/Services/GreeterService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,7 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.tools",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -118,7 +120,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -130,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689434203926</updated>
-      <workItem from="1689434206408" duration="1089000" />
+      <workItem from="1689434206408" duration="1288000" />
     </task>
     <servers />
   </component>

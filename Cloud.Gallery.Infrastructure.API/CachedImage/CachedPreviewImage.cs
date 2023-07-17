@@ -1,6 +1,6 @@
-namespace Cloud.Gallery.Infrastructure.API.Image;
+namespace Cloud.Gallery.Infrastructure.API.CachedImage;
 
 public record CachedPreviewImage(
-    Guid Id, 
+    Guid Id,
     byte[] PreviewData
 );

@@ -1,8 +1,32 @@
 syntax = "proto3";
 
 option csharp_namespace = "Cloud.Gallery.Presentation.GRPC";
+package csharp_namespace;
 
+
+message GalleryImageCached {
+  string Guid = 1;
+  bytes Data = 2;
+}
+
+
+message FetchImageRequest {
+  string Guid = 1;
+}
+
+message FetchImageResponse {
+  GalleryImageCached Image = 1;
+}
+
+message FetchGalleryCacheRequest{
+
+}
+
+message FetchGalleryCacheResponse {
+  repeated GalleryImageCached Images = 1;
+}
 
 service ImageService {
-  
+  rpc FetchImage(FetchImageRequest) returns(FetchImageResponse){};
+  rpc FetchGalleryCache(FetchGalleryCacheRequest) returns (FetchGalleryCacheResponse){};
 }

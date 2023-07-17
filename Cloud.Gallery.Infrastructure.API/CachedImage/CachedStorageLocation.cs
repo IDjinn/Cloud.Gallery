@@ -1,6 +1,6 @@
 namespace Cloud.Gallery.Infrastructure.API.CachedImage;
 
-public enum StorageLocation
+public enum CachedStorageLocation
 {
     Local = 0
 }

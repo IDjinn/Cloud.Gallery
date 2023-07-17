@@ -1,6 +1,6 @@
 namespace Cloud.Gallery.Infrastructure.API.CachedImage;
 
-public enum ExtraData
+public enum CachedExtraData
 {
     None = 0, // do not use it.
 

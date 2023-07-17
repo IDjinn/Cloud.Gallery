@@ -1,6 +1,4 @@
-using Cloud.Galery.Core;
 using Grpc.Core;
-using Cloud.Gallery.Presentation.GRPC;
 
 namespace Cloud.Gallery.Presentation.GRPC.Services;
 
@@ -13,7 +11,7 @@ public class GreeterService : Greeter.GreeterBase
         _logger = logger;
     }
 
-    public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
+    public override Task<HelloReply> Oi(HelloRequest request, ServerCallContext context)
     {
         return Task.FromResult(new HelloReply
         {

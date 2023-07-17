@@ -8,14 +8,21 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="MediatR" Version="12.1.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Cloud.Gallery.Application\Cloud.Gallery.Application.csproj"/>
+        <ProjectReference Include="..\Cloud.Gallery.Infrastructure\Cloud.Gallery.Infrastructure.csproj"/>
+        <ProjectReference Include="..\Cloud.Gallery.Presentation.Contracts\Cloud.Gallery.Presentation.Contracts.csproj"/>
     </ItemGroup>
 
 </Project>

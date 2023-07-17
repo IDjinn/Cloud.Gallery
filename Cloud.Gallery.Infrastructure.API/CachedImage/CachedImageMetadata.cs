@@ -1,10 +1,10 @@
 namespace Cloud.Gallery.Infrastructure.API.CachedImage;
 
-public record ImageMetadata(
+public record CachedImageMetadata(
     Guid ImageId,
     string Title,
     string Author,
     string Source,
-    ExtraData ExtraData,
-    StorageLocation StorageLocation
-    );
+    CachedExtraData CachedExtraData,
+    CachedStorageLocation CachedStorageLocation
+);

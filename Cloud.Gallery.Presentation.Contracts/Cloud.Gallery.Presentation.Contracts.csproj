@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Cloud.Gallery.Application\Cloud.Gallery.Application.csproj"/>
+    </ItemGroup>
+
 </Project>
