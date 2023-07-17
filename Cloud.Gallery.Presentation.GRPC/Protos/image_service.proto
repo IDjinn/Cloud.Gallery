@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option csharp_namespace = "Cloud.Gallery.Presentation.GRPC";
+
+
+service ImageService {
+  
+}

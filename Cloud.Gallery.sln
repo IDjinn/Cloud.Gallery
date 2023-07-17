@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Gallery.Presentation.GRPC", "Cloud.Gallery.Presentation.GRPC\Cloud.Gallery.Presentation.GRPC.csproj", "{DCC99609-BCEA-4F25-A235-1D1742971FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Gallery.Application", "Cloud.Gallery.Application\Cloud.Gallery.Application.csproj", "{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Gallery.Infrastructure", "Cloud.Gallery.Infrastructure\Cloud.Gallery.Infrastructure.csproj", "{316FFA37-939A-4731-B350-F477DAE5FD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud.Gallery.Presentation", "Cloud.Gallery.Presentation", "{81642F1C-FFDB-4655-A323-BB89D91EA231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud.Gallery.Application", "Cloud.Gallery.Application", "{F0BF2F76-8E20-46D1-B1B9-23E775D78100}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud.Gallery.Infrastructure", "Cloud.Gallery.Infrastructure", "{E671CF37-9FEC-499F-B496-8515E71CE68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Gallery.Contracts", "Cloud.Gallery.Contracts\Cloud.Gallery.Contracts.csproj", "{50F5A15B-CD95-4B20-BCF1-BD9D7986379A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC99609-BCEA-4F25-A235-1D1742971FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC99609-BCEA-4F25-A235-1D1742971FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC99609-BCEA-4F25-A235-1D1742971FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC99609-BCEA-4F25-A235-1D1742971FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316FFA37-939A-4731-B350-F477DAE5FD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316FFA37-939A-4731-B350-F477DAE5FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316FFA37-939A-4731-B350-F477DAE5FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316FFA37-939A-4731-B350-F477DAE5FD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F5A15B-CD95-4B20-BCF1-BD9D7986379A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F5A15B-CD95-4B20-BCF1-BD9D7986379A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F5A15B-CD95-4B20-BCF1-BD9D7986379A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F5A15B-CD95-4B20-BCF1-BD9D7986379A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCC99609-BCEA-4F25-A235-1D1742971FE0} = {81642F1C-FFDB-4655-A323-BB89D91EA231}
+		{40F64A51-EF3D-4E4F-A79D-E1F09BE594DB} = {F0BF2F76-8E20-46D1-B1B9-23E775D78100}
+		{316FFA37-939A-4731-B350-F477DAE5FD28} = {E671CF37-9FEC-499F-B496-8515E71CE68E}
+		{50F5A15B-CD95-4B20-BCF1-BD9D7986379A} = {81642F1C-FFDB-4655-A323-BB89D91EA231}
+	EndGlobalSection
+EndGlobal
